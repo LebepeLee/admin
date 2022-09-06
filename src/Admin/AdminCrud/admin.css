@@ -1,0 +1,35 @@
+.admin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+     margin-top: 50px;
+     align-items: center;
+     font-weight: 500;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    font-weight: 500;
+}
+.wrapper>input{
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+}
+.wrapper>button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: aqua;
+}
+img{
+    width: 300px;
+    height: 10px;
+}
